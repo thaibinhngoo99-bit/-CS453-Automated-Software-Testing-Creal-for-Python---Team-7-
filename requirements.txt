@@ -16,3 +16,6 @@ tqdm
 # Testing
 pytest
 pytest-cov
+
+# Token
+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

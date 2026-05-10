@@ -1,0 +1,25 @@
+def test_rel_Infinity():
+    assert (oo > oo) is S.false
+    assert (oo > -oo) is S.true
+    assert (oo > 1) is S.true
+    assert (oo < oo) is S.false
+    assert (oo < -oo) is S.false
+    assert (oo < 1) is S.false
+    assert (oo >= oo) is S.true
+    assert (oo >= -oo) is S.true
+    assert (oo >= 1) is S.true
+    assert (oo <= oo) is S.true
+    assert (oo <= -oo) is S.false
+    assert (oo <= 1) is S.false
+    assert (-oo > oo) is S.false
+    assert (-oo > -oo) is S.false
+    assert (-oo > 1) is S.false
+    assert (-oo < oo) is S.true
+    assert (-oo < -oo) is S.false
+    assert (-oo < 1) is S.true
+    assert (-oo >= oo) is S.false
+    assert (-oo >= -oo) is S.true
+    assert (-oo >= 1) is S.false
+    assert (-oo <= oo) is S.true
+    assert (-oo <= -oo) is S.true
+    assert (-oo <= 1) is S.true
